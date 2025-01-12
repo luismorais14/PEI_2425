@@ -1,0 +1,32 @@
+{
+                $match: {
+                    "Data_Transferencia": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            }, {
+                $group:
+                /**
+                 * _id: The id of the group.
+                 * fieldN: The first field name.
+                 */
+                {
+                    _id: "$Tipo_Transferencia",
+                    Total: {
+                        $sum: 1
+                    }
+                }
+            },
+            {
+                $project:
+                /**
+                 * specifications: The fields to
+                 *   include or exclude.
+                 */
+                {
+                    _id: 0,
+                    Tipo: "$_id",
+                    Numero_Total: "$Total"
+                }
+            }

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.MedSync.pt/Transferencias"
+    elementFormDefault="qualified">
+
+    <xs:element name="Relatorio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="HospitalDestino" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NomeHospital" type="xs:string"/>
+                            <xs:element name="RegistosTransferencias" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="CodigoPaciente" type="xs:string"/>
+                                        <xs:element name="DataTransferencia" type="xs:string"/>
+                                        <xs:element name="Motivo" type="xs:string"/>
+                                        <xs:element name="Diagnosticos" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Diagnostico"
+                                                  maxOccurs="unbounded">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="CodigoCID10" type="xs:string"/>
+                                                  <xs:element name="Descricao" type="xs:string"/>
+                                                  <xs:element name="Tipo" type="xs:string"/>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Tratamentos" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Tratamento"
+                                                  maxOccurs="unbounded">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="ID" type="xs:int"/>
+                                                  <xs:element name="IdRegistoClinico" type="xs:int"/>
+                                                  <xs:element name="Tipo" type="xs:string"/>
+                                                  <xs:element name="Realizado">
+                                                  <xs:simpleType>
+                                                  <xs:restriction base="xs:string">
+                                                  <xs:enumeration value="Sim"/>
+                                                  <xs:enumeration value="Nao"/>
+                                                  </xs:restriction>
+                                                  </xs:simpleType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="ResumoMensal">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NumeroTotalDeTransferenciasPorMotivo" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="MotivoDetalhes" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Motivo" type="xs:string"/>
+                                                  <xs:element name="Total" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="NumeroTotalDeTransferenciasPorTipo" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="TipoDetalhes" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="Tipo" type="xs:string"/>
+                                                  <xs:element name="Total" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="NumeroTotalDeTransferenciasPorHospital" minOccurs="0"
+                                maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="HospitalDetalhes" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="NomeHospital" type="xs:string"/>
+                                                  <xs:element name="Total" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

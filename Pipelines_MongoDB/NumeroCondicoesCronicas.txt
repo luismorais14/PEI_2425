@@ -1,0 +1,31 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+            {
+                $group:
+
+                {
+                    _id: "$Paciente.Tipo_Paciente",
+                    Total_Condicoes_Cronicos: {
+                        $sum: 1
+                    }
+                }
+            },
+            {
+                $match:
+                {
+                    _id: "Crônico"
+                }
+            },
+            {
+                $project:
+
+                {
+                    _id: 0
+                }
+            }

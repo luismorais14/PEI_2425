@@ -1,0 +1,37 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+
+
+            {
+                $unwind: {
+                    path: "$Tratamentos",
+                    preserveNullAndEmptyArrays: false
+                }
+            },
+            {
+                $group: {
+                    _id: "$Tratamentos.Realizado",
+                    totalTratamentos: {
+                        $sum: 1
+                    }
+                }
+            },
+            {
+                $match:
+                {
+                    _id: "Sim"
+                }
+            },
+            {
+                $project: {
+                    _id: 0,
+                    totalTratamentos: 1
+                }
+
+            }

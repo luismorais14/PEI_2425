@@ -1,0 +1,22 @@
+{
+                $match: {
+                    "Data_Transferencia": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+            {
+                $project: {
+                    _id: 0,
+                    Hospital_Destino: 1,
+                    "Paciente.ID_Paciente": 1,
+                    "Data_Transferencia": 1,
+                    Motivo: 1,
+                    Tipo_Transferencia: 1,
+                    Diagnosticos: 1,
+                    Tratamentos: 1
+                }
+            }, {
+                $limit: 10
+            }

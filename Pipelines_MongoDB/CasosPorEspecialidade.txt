@@ -1,0 +1,25 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+            {
+                $group: {
+                  _id: "$Profissional.Especialidade",
+                  Casos_Por_Especialidade: {
+                    $sum: 1
+                  }
+                }
+              },
+              {
+                $project: {
+                  _id: 0,
+                  Especialidade: "$_id",
+                  Total: "$Casos_Por_Especialidade"
+                }
+              }, {
+                $limit : 10
+            }

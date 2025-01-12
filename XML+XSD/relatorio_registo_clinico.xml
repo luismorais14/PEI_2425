@@ -1,0 +1,255 @@
+<RelatorioHospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RegistoClinico.xsd"
+    xsi:schemaLocation="http://www.MedSync.pt/RegistoClinico RegistoClinico.xsd">
+    <Hospital>
+        <CodHospital>H123</CodHospital>
+        <NomeHospital>Hospital Felgueiras</NomeHospital>
+        <MoradaHospital>Rua da ESTGf, 11</MoradaHospital>
+        <MesRelatorio>2</MesRelatorio>
+        <AnoFiscalRelatorio>2023</AnoFiscalRelatorio>
+    </Hospital>
+    <ListaPacientes>
+        <Paciente>
+            <NomeCompleto>Michael Lewis</NomeCompleto>
+            <DataNascimento>1982-03-13T00:00:00.000Z</DataNascimento>
+            <Genero>F</Genero>
+            <ID>3703</ID>
+            <Contacto>
+                <Telefone>não fornecido</Telefone>
+                <Email>desconhecido</Email>
+            </Contacto>
+            <TipoPaciente>Crônico</TipoPaciente>
+        </Paciente>
+        <Paciente>
+            <NomeCompleto>Maria Soto</NomeCompleto>
+            <DataNascimento>1960-03-10T00:00:00.000Z</DataNascimento>
+            <Genero>F</Genero>
+            <ID>5710</ID>
+            <Contacto>
+                <Telefone>não fornecido</Telefone>
+                <Email>desconhecido</Email>
+            </Contacto>
+            <TipoPaciente>Crônico</TipoPaciente>
+        </Paciente>
+        <Paciente>
+            <NomeCompleto>Samuel Barnett</NomeCompleto>
+            <DataNascimento>1972-03-17T00:00:00.000Z</DataNascimento>
+            <Genero>M</Genero>
+            <ID>13249</ID>
+            <Contacto>
+                <Telefone>+1-254-984-4581</Telefone>
+                <Email>desconhecido</Email>
+            </Contacto>
+            <TipoPaciente>Crônico</TipoPaciente>
+        </Paciente>
+        <Paciente>
+            <NomeCompleto>Robert Simmons</NomeCompleto>
+            <DataNascimento>1973-04-14T00:00:00.000Z</DataNascimento>
+            <Genero>F</Genero>
+            <ID>2846</ID>
+            <Contacto>
+                <Telefone>001-996-275-9109x435</Telefone>
+                <Email>tfisher@example.com</Email>
+            </Contacto>
+            <TipoPaciente>Crônico</TipoPaciente>
+        </Paciente>
+        <Paciente>
+            <NomeCompleto>Jennifer Woods</NomeCompleto>
+            <DataNascimento>1963-02-20T00:00:00.000Z</DataNascimento>
+            <Genero>M</Genero>
+            <ID>8404</ID>
+            <Contacto>
+                <Telefone>807.567.3087</Telefone>
+                <Email>heather70@example.org</Email>
+            </Contacto>
+            <TipoPaciente>Crônico</TipoPaciente>
+        </Paciente>
+    </ListaPacientes>
+    <RegistosClinicos>
+        <Registo>
+            <CodAtendimento>20</CodAtendimento>
+            <Data>2023-02-24T00:00:00.000Z</Data>
+            <Especialidade>Ortopedista</Especialidade>
+            <Diagnosticos>
+                <Diagnostico>
+                    <TipoDiagnostico>Principal</TipoDiagnostico>
+                    <CodigoCID10>Q20</CodigoCID10>
+                    <DescricaoDiagnostico>Malformações congênitas do coração</DescricaoDiagnostico>
+                </Diagnostico>
+            </Diagnosticos>
+            <Tratamentos>
+                <Tratamento>
+                    <ID>413671</ID>
+                    <IdRegistoClinico>20</IdRegistoClinico>
+                    <Tipo>Exame de colesterol</Tipo>
+                    <Realizado>Nao</Realizado>
+                </Tratamento>
+            </Tratamentos>
+            <ID_Profissional>72</ID_Profissional>
+        </Registo>
+        <Registo>
+            <CodAtendimento>55</CodAtendimento>
+            <Data>2023-02-18T00:00:00.000Z</Data>
+            <Especialidade>Dermatologista</Especialidade>
+            <Diagnosticos>
+                <Diagnostico>
+                    <TipoDiagnostico>Principal</TipoDiagnostico>
+                    <CodigoCID10>C34</CodigoCID10>
+                    <DescricaoDiagnostico>Neoplasia maligna dos brônquios e dos pulmões</DescricaoDiagnostico>
+                </Diagnostico>
+            </Diagnosticos>
+            <Tratamentos>
+                <Tratamento>
+                    <ID>39966</ID>
+                    <IdRegistoClinico>55</IdRegistoClinico>
+                    <Tipo>Nebulização</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+            </Tratamentos>
+            <ID_Profissional>67</ID_Profissional>
+        </Registo>
+        <Registo>
+            <CodAtendimento>69</CodAtendimento>
+            <Data>2023-02-15T00:00:00.000Z</Data>
+            <Especialidade>Cardiologista</Especialidade>
+            <Diagnosticos>
+                <Diagnostico>
+                    <TipoDiagnostico>Principal</TipoDiagnostico>
+                    <CodigoCID10>L20</CodigoCID10>
+                    <DescricaoDiagnostico>Dermatite atópica</DescricaoDiagnostico>
+                </Diagnostico>
+                <Diagnostico>
+                    <TipoDiagnostico>Secundario</TipoDiagnostico>
+                    <CodigoCID10>Q20</CodigoCID10>
+                    <DescricaoDiagnostico>Malformações congênitas do coração</DescricaoDiagnostico>
+                </Diagnostico>
+                <Diagnostico>
+                    <TipoDiagnostico>Secundario</TipoDiagnostico>
+                    <CodigoCID10>N39</CodigoCID10>
+                    <DescricaoDiagnostico>Outros distúrbios do trato urinário</DescricaoDiagnostico>
+                </Diagnostico>
+            </Diagnosticos>
+            <Tratamentos>
+                <Tratamento>
+                    <ID>50693</ID>
+                    <IdRegistoClinico>69</IdRegistoClinico>
+                    <Tipo>Fisioterapia</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+                <Tratamento>
+                    <ID>124836</ID>
+                    <IdRegistoClinico>69</IdRegistoClinico>
+                    <Tipo>Remoção de verrugas</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+                <Tratamento>
+                    <ID>188947</ID>
+                    <IdRegistoClinico>69</IdRegistoClinico>
+                    <Tipo>Terapia respiratória</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+                <Tratamento>
+                    <ID>223362</ID>
+                    <IdRegistoClinico>69</IdRegistoClinico>
+                    <Tipo>Curativo de ferida cirúrgica</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+                <Tratamento>
+                    <ID>362393</ID>
+                    <IdRegistoClinico>69</IdRegistoClinico>
+                    <Tipo>Vacinação</Tipo>
+                    <Realizado>Sim</Realizado>
+                </Tratamento>
+            </Tratamentos>
+            <ID_Profissional>166</ID_Profissional>
+        </Registo>
+        <Registo>
+            <CodAtendimento>79</CodAtendimento>
+            <Data>2023-02-08T00:00:00.000Z</Data>
+            <Especialidade>Dermatologista</Especialidade>
+            <Diagnosticos>
+                <Diagnostico>
+                    <TipoDiagnostico>Principal</TipoDiagnostico>
+                    <CodigoCID10>C34</CodigoCID10>
+                    <DescricaoDiagnostico>Neoplasia maligna dos brônquios e dos pulmões</DescricaoDiagnostico>
+                </Diagnostico>
+                <Diagnostico>
+                    <TipoDiagnostico>Secundario</TipoDiagnostico>
+                    <CodigoCID10>E11</CodigoCID10>
+                    <DescricaoDiagnostico>Diabetes mellitus não insulinodependente</DescricaoDiagnostico>
+                </Diagnostico>
+                <Diagnostico>
+                    <TipoDiagnostico>Secundario</TipoDiagnostico>
+                    <CodigoCID10>F32</CodigoCID10>
+                    <DescricaoDiagnostico>Episódios depressivos</DescricaoDiagnostico>
+                </Diagnostico>
+                <Diagnostico>
+                    <TipoDiagnostico>Secundario</TipoDiagnostico>
+                    <CodigoCID10>O80</CodigoCID10>
+                    <DescricaoDiagnostico>Parto único espontâneo</DescricaoDiagnostico>
+                </Diagnostico>
+            </Diagnosticos>
+            <Tratamentos/>
+            <ID_Profissional>126</ID_Profissional>
+        </Registo>
+        <Registo>
+            <CodAtendimento>80</CodAtendimento>
+            <Data>2023-02-20T00:00:00.000Z</Data>
+            <Especialidade>Dermatologista</Especialidade>
+            <Diagnosticos>
+                <Diagnostico>
+                    <TipoDiagnostico>Principal</TipoDiagnostico>
+                    <CodigoCID10>B20</CodigoCID10>
+                    <DescricaoDiagnostico>Doença pelo vírus da imunodeficiência humana [HIV] resultante em doenças infecciosas e parasitárias</DescricaoDiagnostico>
+                </Diagnostico>
+            </Diagnosticos>
+            <Tratamentos>
+                <Tratamento>
+                    <ID>408492</ID>
+                    <IdRegistoClinico>80</IdRegistoClinico>
+                    <Tipo>Ressonância magnética</Tipo>
+                    <Realizado>Nao</Realizado>
+                </Tratamento>
+            </Tratamentos>
+            <ID_Profissional>61</ID_Profissional>
+        </Registo>
+    </RegistosClinicos>
+    <ResumoMensal>
+        <PacientesAtendidos>
+            <PorGenero>
+                <Genero>F</Genero>
+                <Total>5257</Total>
+                <Genero>M</Genero>
+                <Total>5441</Total>
+            </PorGenero>
+            <PorFaixaEtaria>
+                <FaixaEtaria>0-17</FaixaEtaria>
+                <Total>705</Total>
+                <FaixaEtaria>18-29</FaixaEtaria>
+                <Total>2083</Total>
+                <FaixaEtaria>30-39</FaixaEtaria>
+                <Total>1766</Total>
+                <FaixaEtaria>40-49</FaixaEtaria>
+                <Total>1791</Total>
+                <FaixaEtaria>50-59</FaixaEtaria>
+                <Total>1743</Total>
+                <FaixaEtaria>60+</FaixaEtaria>
+                <Total>2610</Total>
+            </PorFaixaEtaria>
+        </PacientesAtendidos>
+        <CasosPorEspecialidade>
+            <Especialidade>Ortopedista</Especialidade>
+            <Total>2052</Total>
+            <Especialidade>Pediatra</Especialidade>
+            <Total>1653</Total>
+            <Especialidade>Clínico Geral</Especialidade>
+            <Total>2243</Total>
+            <Especialidade>Dermatologista</Especialidade>
+            <Total>2589</Total>
+            <Especialidade>Cardiologista</Especialidade>
+            <Total>2161</Total>
+        </CasosPorEspecialidade>
+        <TratamentosRealizados>12873</TratamentosRealizados>
+        <NumeroCondicoesCronicas>10689</NumeroCondicoesCronicas>
+    </ResumoMensal>
+</RelatorioHospital>

@@ -1,0 +1,22 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+            {
+                $project: {
+                  _id: 0,
+                  Nome_Completo: "$Paciente.Nome_Completo_Paciente",
+                  Data_Nascimento_Paciente:
+                    "$Paciente.Data_Nascimento",
+                  Genero: "$Paciente.Genero",
+                  ID_Paciente: "$Paciente.ID_Paciente",
+                  Contactos: "$Paciente.Contacto",
+                  Tipo_Paciente: "$Paciente.Tipo_Paciente"
+                }
+              }, {
+                $limit : 5
+            }

@@ -1,0 +1,506 @@
+<Relatorio
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Transferencias.xsd" xsi:schemaLocation="http://www.MedSync.pt/Transferencias Transferencias.xsd">
+	<HospitalDestino>
+		<NomeHospital>Hospital Geral da Cidade</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>8822</CodigoPaciente>
+			<DataTransferencia>2023-02-05T00:00:00.000Z</DataTransferencia>
+			<Motivo>Consulta de segunda opinião</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>D50</CodigoCID10>
+					<Descricao>Anemia por deficiência de ferro</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>D50</CodigoCID10>
+					<Descricao>Anemia por deficiência de ferro</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>118763</ID>
+					<IdRegistoClinico>73358</IdRegistoClinico>
+					<Tipo>Colonoscopia</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>213306</ID>
+					<IdRegistoClinico>73358</IdRegistoClinico>
+					<Tipo>Cateterismo cardíaco</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital Geral da Cidade</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>70</CodigoPaciente>
+			<DataTransferencia>2023-02-24T00:00:00.000Z</DataTransferencia>
+			<Motivo>Exames complementares de diagnóstico</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>E11</CodigoCID10>
+					<Descricao>Diabetes mellitus não insulinodependente</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>R51</CodigoCID10>
+					<Descricao>Cefaleia</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>G40</CodigoCID10>
+					<Descricao>Epilepsia</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>271607</ID>
+					<IdRegistoClinico>141773</IdRegistoClinico>
+					<Tipo>Imobilização de fratura</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>271607</ID>
+					<IdRegistoClinico>141773</IdRegistoClinico>
+					<Tipo>Imobilização de fratura</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>253393</ID>
+					<IdRegistoClinico>246643</IdRegistoClinico>
+					<Tipo>Teste de função hepática</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital Santa Maria</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>1811</CodigoPaciente>
+			<DataTransferencia>2023-02-21T00:00:00.000Z</DataTransferencia>
+			<Motivo>Exames complementares de diagnóstico</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>F32</CodigoCID10>
+					<Descricao>Episódios depressivos</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>J45</CodigoCID10>
+					<Descricao>Asma</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>R51</CodigoCID10>
+					<Descricao>Cefaleia</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>158434</ID>
+					<IdRegistoClinico>98069</IdRegistoClinico>
+					<Tipo>Exame de hormônios (TSH, T3, T4)</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>158434</ID>
+					<IdRegistoClinico>98069</IdRegistoClinico>
+					<Tipo>Exame de hormônios (TSH, T3, T4)</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>244531</ID>
+					<IdRegistoClinico>203679</IdRegistoClinico>
+					<Tipo>Fisioterapia</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital de Coração</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>2481</CodigoPaciente>
+			<DataTransferencia>2023-02-24T00:00:00.000Z</DataTransferencia>
+			<Motivo>Consulta de segunda opinião</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>S06</CodigoCID10>
+					<Descricao>Traumatismo intracraniano</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>S06</CodigoCID10>
+					<Descricao>Traumatismo intracraniano</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>T78</CodigoCID10>
+					<Descricao>Reações adversas a alimentos não especificados</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>104703</ID>
+					<IdRegistoClinico>9754</IdRegistoClinico>
+					<Tipo>Salbutamol inalatório</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>130277</ID>
+					<IdRegistoClinico>9754</IdRegistoClinico>
+					<Tipo>Exame de sangue</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>104703</ID>
+					<IdRegistoClinico>9754</IdRegistoClinico>
+					<Tipo>Salbutamol inalatório</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Clínica São Paulo</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>7826</CodigoPaciente>
+			<DataTransferencia>2023-02-05T00:00:00.000Z</DataTransferencia>
+			<Motivo>Exames complementares de diagnóstico</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>T78</CodigoCID10>
+					<Descricao>Reações adversas a alimentos não especificados</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>O80</CodigoCID10>
+					<Descricao>Parto único espontâneo</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>S06</CodigoCID10>
+					<Descricao>Traumatismo intracraniano</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>123528</ID>
+					<IdRegistoClinico>160216</IdRegistoClinico>
+					<Tipo>Dipirona 500mg</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>236686</ID>
+					<IdRegistoClinico>203398</IdRegistoClinico>
+					<Tipo>Punção lombar</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>236686</ID>
+					<IdRegistoClinico>203398</IdRegistoClinico>
+					<Tipo>Punção lombar</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital Geral da Cidade</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>2094</CodigoPaciente>
+			<DataTransferencia>2023-02-14T00:00:00.000Z</DataTransferencia>
+			<Motivo>Urgência médica</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>H25</CodigoCID10>
+					<Descricao>Catarata senil</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>M81</CodigoCID10>
+					<Descricao>Osteoporose sem fratura patológica</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>M81</CodigoCID10>
+					<Descricao>Osteoporose sem fratura patológica</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>16219</ID>
+					<IdRegistoClinico>271010</IdRegistoClinico>
+					<Tipo>Exame de sangue</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>160254</ID>
+					<IdRegistoClinico>271010</IdRegistoClinico>
+					<Tipo>Teste de esforço</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>220310</ID>
+					<IdRegistoClinico>271010</IdRegistoClinico>
+					<Tipo>Raio-X</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital Geral da Cidade</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>1358</CodigoPaciente>
+			<DataTransferencia>2023-02-26T00:00:00.000Z</DataTransferencia>
+			<Motivo>Consulta de segunda opinião</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>R51</CodigoCID10>
+					<Descricao>Cefaleia</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>R51</CodigoCID10>
+					<Descricao>Cefaleia</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>R51</CodigoCID10>
+					<Descricao>Cefaleia</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>53521</ID>
+					<IdRegistoClinico>16334</IdRegistoClinico>
+					<Tipo>Hemograma completo</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>149311</ID>
+					<IdRegistoClinico>16334</IdRegistoClinico>
+					<Tipo>Imobilização de fratura</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>321993</ID>
+					<IdRegistoClinico>16334</IdRegistoClinico>
+					<Tipo>Metformina 850mg</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital São João</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>6041</CodigoPaciente>
+			<DataTransferencia>2023-02-27T00:00:00.000Z</DataTransferencia>
+			<Motivo>Consulta de segunda opinião</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>L20</CodigoCID10>
+					<Descricao>Dermatite atópica</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>L20</CodigoCID10>
+					<Descricao>Dermatite atópica</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>L20</CodigoCID10>
+					<Descricao>Dermatite atópica</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>21930</ID>
+					<IdRegistoClinico>7677</IdRegistoClinico>
+					<Tipo>Mamografia</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>103411</ID>
+					<IdRegistoClinico>7677</IdRegistoClinico>
+					<Tipo>Furosemida 40mg</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>324411</ID>
+					<IdRegistoClinico>7677</IdRegistoClinico>
+					<Tipo>Ultrassonografia</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital Santa Maria</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>7701</CodigoPaciente>
+			<DataTransferencia>2023-02-27T00:00:00.000Z</DataTransferencia>
+			<Motivo>Consulta de segunda opinião</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>J45</CodigoCID10>
+					<Descricao>Asma</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>Q20</CodigoCID10>
+					<Descricao>Malformações congênitas do coração</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>L20</CodigoCID10>
+					<Descricao>Dermatite atópica</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>26975</ID>
+					<IdRegistoClinico>49374</IdRegistoClinico>
+					<Tipo>Captopril 25mg</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>409357</ID>
+					<IdRegistoClinico>49374</IdRegistoClinico>
+					<Tipo>Ecocardiograma</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>409358</ID>
+					<IdRegistoClinico>49374</IdRegistoClinico>
+					<Tipo>Salbutamol inalatório</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<HospitalDestino>
+		<NomeHospital>Hospital São João</NomeHospital>
+		<RegistosTransferencias>
+			<CodigoPaciente>9259</CodigoPaciente>
+			<DataTransferencia>2023-02-16T00:00:00.000Z</DataTransferencia>
+			<Motivo>Exames complementares de diagnóstico</Motivo>
+			<Diagnosticos>
+				<Diagnostico>
+					<CodigoCID10>G40</CodigoCID10>
+					<Descricao>Epilepsia</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>P07</CodigoCID10>
+					<Descricao>Outras condições respiratórias do recém-nascido</Descricao>
+					<Tipo>Principal</Tipo>
+				</Diagnostico>
+				<Diagnostico>
+					<CodigoCID10>Q20</CodigoCID10>
+					<Descricao>Malformações congênitas do coração</Descricao>
+					<Tipo>Secundario</Tipo>
+				</Diagnostico>
+			</Diagnosticos>
+			<Tratamentos>
+				<Tratamento>
+					<ID>317405</ID>
+					<IdRegistoClinico>2014</IdRegistoClinico>
+					<Tipo>Aplicação de insulina</Tipo>
+					<Realizado>Nao</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>108430</ID>
+					<IdRegistoClinico>111091</IdRegistoClinico>
+					<Tipo>Prednisona 5mg</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+				<Tratamento>
+					<ID>108430</ID>
+					<IdRegistoClinico>111091</IdRegistoClinico>
+					<Tipo>Prednisona 5mg</Tipo>
+					<Realizado>Sim</Realizado>
+				</Tratamento>
+			</Tratamentos>
+		</RegistosTransferencias>
+	</HospitalDestino>
+	<ResumoMensal>
+		<NumeroTotalDeTransferenciasPorMotivo>
+			<MotivoDetalhes>
+				<Motivo>Procedimento cirúrgico avançado</Motivo>
+				<Total>65</Total>
+			</MotivoDetalhes>
+			<MotivoDetalhes>
+				<Motivo>Urgência médica</Motivo>
+				<Total>60</Total>
+			</MotivoDetalhes>
+			<MotivoDetalhes>
+				<Motivo>Consulta de segunda opinião</Motivo>
+				<Total>74</Total>
+			</MotivoDetalhes>
+			<MotivoDetalhes>
+				<Motivo>Reabilitação prolongada</Motivo>
+				<Total>62</Total>
+			</MotivoDetalhes>
+			<MotivoDetalhes>
+				<Motivo>Tratamento especializado</Motivo>
+				<Total>74</Total>
+			</MotivoDetalhes>
+			<MotivoDetalhes>
+				<Motivo>Exames complementares de diagnóstico</Motivo>
+				<Total>67</Total>
+			</MotivoDetalhes>
+		</NumeroTotalDeTransferenciasPorMotivo>
+		<NumeroTotalDeTransferenciasPorTipo>
+			<TipoDetalhes>
+				<Tipo>Urgente</Tipo>
+				<Total>191</Total>
+			</TipoDetalhes>
+			<TipoDetalhes>
+				<Tipo>Eletiva</Tipo>
+				<Total>211</Total>
+			</TipoDetalhes>
+		</NumeroTotalDeTransferenciasPorTipo>
+		<NumeroTotalDeTransferenciasPorHospital>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>56</Total>
+			</HospitalDetalhes>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>66</Total>
+			</HospitalDetalhes>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>71</Total>
+			</HospitalDetalhes>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>60</Total>
+			</HospitalDetalhes>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>69</Total>
+			</HospitalDetalhes>
+			<HospitalDetalhes>
+				<NomeHospital/>
+				<Total>80</Total>
+			</HospitalDetalhes>
+		</NumeroTotalDeTransferenciasPorHospital>
+	</ResumoMensal>
+</Relatorio>

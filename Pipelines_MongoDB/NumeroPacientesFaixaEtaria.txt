@@ -1,0 +1,38 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+
+            {
+                $group:
+                /**
+                 * _id: The id of the group.
+                 * fieldN: The first field name.
+                 */
+                {
+                    _id: "$Paciente.FaixaEtaria",
+                    Faixa_Etaria: {
+                        $sum: 1
+                    }
+                }
+            },
+            {
+                $project:
+                /**
+                 * specifications: The fields to
+                 *   include or exclude.
+                 */
+                {
+                    _id: 0,
+                    Faixa_Etaria: "$_id",
+                    Total: "$Faixa_Etaria"
+                }
+            },{
+                $sort : {
+                    Faixa_Etaria: 1
+                }
+            }

@@ -1,0 +1,25 @@
+{
+                $match: {
+                    "Data_Atendimento": {
+                        $gte: startDate,
+                        $lte: endDate,
+                    }
+                }
+            },
+
+            {
+                $group: {
+                    _id: "$Paciente.Genero",
+                    total: {
+                        $sum: 1
+                    }
+                }
+            },
+            {
+                $project:
+                {
+                    _id: 0,
+                    Genero: "$_id",
+                    Total: "$total"
+                }
+            }
